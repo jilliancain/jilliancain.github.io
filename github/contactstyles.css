@@ -87,13 +87,34 @@ text-align: center;
 }
 
 
-.photos
-{border: 2px solid black;
-    border-bottom-left-radius:50px ;
-border-bottom-right-radius:50px ;
-border-top-left-radius: 50px;
-border-top-right-radius:50px ; }
+p
+{
+    padding: 20px;
+    border: 2px solid black;
+    border-bottom-left-radius:30px ;
+border-bottom-right-radius:30px ;
+border-top-left-radius: 30px;
+border-top-right-radius:30px ; }
   
+
+
+div {
+  background:none
+  height: 400px;
+  width: 400px;
+  transition: all 1s;
+  
+}
+
+/*last frame*/
+
+div:hover {
+  height: 500px;
+  width: 500px;
+  background: none;
+ margin-left: 200px;
+  
+}
   
   /*hover styles*/
 a {
